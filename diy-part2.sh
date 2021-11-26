@@ -12,3 +12,8 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
+git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
+git clone https://github.com/fw876/helloworld.git package/helloworld
+git clone https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
